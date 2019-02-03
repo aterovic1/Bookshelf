@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dKategorije"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dKategorije"/>
+        <Button
+            android:text="@string/dAutori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dAutori"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/tekstPretraga"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="@string/dPretraga"
+            android:id="@+id/dPretraga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dDodajKategoriju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/dDodajKategoriju" />
+
+        <Button
+            android:id="@+id/dDodajKnjigu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dDodajKnjigu" />
+        <Button
+            android:id="@+id/dDodajOnline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dDodajOnline"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:paddingTop="20dp"
+        android:id="@+id/listaKategorija"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+</LinearLayout>

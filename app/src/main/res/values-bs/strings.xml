@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kategorije">
+        <item>Enciklopedije, leksikoni i rječnici</item>
+        <item>Biografije i memoari</item>
+        <item>Zdravlje, um i tijelo</item>
+        <item>Putovanja i turizam</item>
+        <item>Književnost</item>
+        <item>Religija</item>
+    </string-array>
+    <string name="app_name">Moja biblioteka</string>
+    <string name="dKategorije">KATEGORIJE</string>
+    <string name="dAutori">AUTORI</string>
+    <string name="dPretraga">PRETRAGA</string>
+    <string name="dDodajKnjigu">DODAJ KNJIGU</string>
+    <string name="dDodajKategoriju">DODAJ KATEGORIJU</string>
+    <string name="dNadjiSliku">NAĐI SLIKU</string>
+    <string name="helpImeAutora">Ime Autora</string>
+    <string name="helpNazivKnjige">Naziv knjige</string>
+    <string name="dUpisiKnjigu">UPIŠI KNJIGU</string>
+    <string name="dPonisiti">PONIŠTI</string>
+    <string name="toastNemaRezultata">Nema rezultata</string>
+    <string name="toastKnjigaUpisana">Knjiga uspješno upisana</string>
+    <string name="toastKnjigaNijeUpisana">GRESKA! Moguće da već postoji ista knjiga</string>
+    <string name="dPovratak">POVRATAK</string>
+    <string name="toastKategorijaDodana">Kategorija dodana</string>
+    <string name="dDodajOnline">dodaj knjigu online</string>
+    <string name="hintUpit">Napišite vaš upit ovdje</string>
+    <string name="toastNijeOdabranaKnjiga">Niste odabrali knjigu</string>
+    <string name="eOpis">Opis: </string>
+    <string name="eDatumObjavljivanja">Datum objavljivanja: </string>
+    <string name="eBrojStranica">Broj stranica: </string>
+    <string name="dPreporuci">Preporuči</string>
+    <string name="dPosalji">Pošalji</string>
+    <string name="prepKnjiga">Preporučena knjiga: </string>
+</resources>

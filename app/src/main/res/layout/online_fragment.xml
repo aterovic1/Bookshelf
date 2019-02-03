@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:paddingTop="20dp"
+        android:id="@+id/sKategorije"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:entries="@array/kategorije"
+        />
+    <EditText
+        android:hint="@string/hintUpit"
+        android:paddingTop="20dp"
+        android:id="@+id/tekstUpit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Spinner
+        android:paddingTop="20dp"
+        android:id="@+id/sRezultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        />
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dRun"
+            android:text="@string/dPretraga"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dAdd"
+            android:text="@string/dDodajKnjigu"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dPovratak"
+            android:text="@string/dPovratak"/>
+
+    </LinearLayout>
+
+</LinearLayout>

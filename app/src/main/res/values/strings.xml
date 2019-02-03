@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My library</string>
+    <string-array name="kategorije">
+        <item>Encyclopedia, lexicons and dictionaries</item>
+        <item>Biographies and memoirs</item>
+        <item>Health, mind and body</item>
+        <item>Travel and tourism</item>
+        <item>Literature</item>
+        <item>Religion</item>
+    </string-array>
+    <string name="dKategorije">CATEGORIES</string>
+    <string name="dAutori">AUTHORS</string>
+    <string name="dPretraga">SEARCH</string>
+    <string name="dDodajKnjigu">ADD BOOK</string>
+    <string name="dDodajKategoriju">ADD CATEGORY</string>
+    <string name="dNadjiSliku">FIND PHOTO</string>
+    <string name="helpImeAutora">Author name</string>
+    <string name="helpNazivKnjige">Book name</string>
+    <string name="dUpisiKnjigu">INSERT BOOK</string>
+    <string name="dPonisiti">CANCEL</string>
+    <string name="toastNemaRezultata">No entries</string>
+    <string name="toastKnjigaUpisana">Book added successfully</string>
+    <string name="toastKnjigaNijeUpisana">Something went wrong. Book may already exist</string>
+    <string name="dPovratak">BACK</string>
+    <string name="toastKategorijaDodana">Category added</string>
+    <string name="dDodajOnline">add book online</string>
+    <string name="hintUpit">Type your query here</string>
+    <string name="toastNijeOdabranaKnjiga">No book selected</string>
+    <string name="eOpis">Description: </string>
+    <string name="eDatumObjavljivanja">Publish date: </string>
+    <string name="eBrojStranica">Page count: </string>
+    <string name="dPreporuci">Recommend</string>
+    <string name="dPosalji">Send</string>
+    <string name="prepKnjiga">Recommended book: </string>
+</resources>
